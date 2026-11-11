@@ -4,10 +4,11 @@ A responsive, bilingual (Korean/English) academic homepage built with plain HTML
 
 ## Publish with GitHub Pages
 
-1. Create a GitHub repository. For a personal site, name it `YOUR-USERNAME.github.io`.
-2. Upload `index.html` and `.nojekyll` to the repository's root and commit them to the default branch.
-3. In **Settings → Pages**, choose **Deploy from a branch**, select the default branch and `/ (root)`, then save.
-4. GitHub Pages will show the published URL in the same Settings page.
+The repository includes a GitHub Actions workflow at `.github/workflows/pages.yml`.
+
+1. Open **Settings → Pages** in the repository.
+2. Under **Build and deployment → Source**, choose **GitHub Actions**.
+3. The workflow deploys automatically on pushes to `main`. GitHub Pages will show the published URL on the same Settings page.
 
 The page is designed to work as a static GitHub Pages site. Edit the Korean and English copy in the matching `data-ko` and `data-en` attributes in `index.html`.
 
