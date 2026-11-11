@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="이경완의 러시아어·19세기 문학 강의와 서양·러시아 비교문학 연구 소개">
+  <meta name="theme-color" content="#f5f2eb">
+  <title>이경완 | 러시아 문학과 비교문학</title>
+  <style>
+    :root{--paper:#f5f2eb;--ink:#202923;--muted:#69736d;--green:#3e5f4c;--line:#d7d9ce;--gold:#b68148;--white:#fffefa;--serif:Georgia,"Noto Serif KR",serif;--sans:Arial,"Noto Sans KR",sans-serif}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.7}a{color:inherit;text-decoration:none}button{font:inherit}.wrap{width:min(1120px,calc(100% - 48px));margin:auto}
+    .topbar{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font-family:var(--serif);font-size:18px;letter-spacing:.02em}.nav{display:flex;align-items:center;gap:30px;font-size:13px;color:#536057}.nav a:hover{color:var(--gold)}.lang{border:1px solid var(--line);background:transparent;border-radius:99px;padding:7px 13px;color:var(--ink);cursor:pointer;font-size:12px}
+    .hero{min-height:620px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:54px;padding:78px 0 90px}.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.2em;color:var(--green);font-weight:700}.hero h1{font-family:var(--serif);font-weight:400;font-size:clamp(46px,6.6vw,82px);line-height:1.13;letter-spacing:-.045em;margin:24px 0}.hero h1 em{font-weight:400;color:var(--green)}.hero p{font-size:17px;color:#566159;max-width:535px;margin:0}.actions{display:flex;align-items:center;gap:22px;margin-top:34px}.button{background:var(--green);color:white;padding:13px 20px;border-radius:3px;font-size:13px}.textlink{font-size:13px;border-bottom:1px solid #9aab9d;padding-bottom:3px}.art{height:410px;position:relative;background:#e3e2d7;overflow:hidden;border-radius:48% 48% 5px 5px}.art:before{content:"";position:absolute;width:330px;height:330px;border-radius:50%;background:#c2c8b5;right:-45px;top:-30px}.art:after{content:"";position:absolute;width:250px;height:250px;border-radius:50%;background:#d8b68e;left:-55px;bottom:-95px;opacity:.9}.book{position:absolute;z-index:2;width:220px;height:300px;left:50%;top:50%;transform:translate(-50%,-48%) rotate(-7deg);background:#f8f4e9;box-shadow:18px 20px 0 #a9b2a0,0 16px 36px #24362a30;padding:34px 25px;display:flex;flex-direction:column;justify-content:space-between}.book small{font-size:9px;letter-spacing:.2em;color:var(--green)}.book strong{font-family:var(--serif);font-size:27px;line-height:1.3;font-weight:400}.book span{font-family:var(--serif);font-style:italic;font-size:12px;color:#68736b}.seal{position:absolute;right:12%;bottom:14%;z-index:3;width:62px;height:62px;border:1px solid #fffefa;border-radius:50%;display:grid;place-items:center;color:#fffefa;font-family:var(--serif);font-size:24px}
+    .section{padding:90px 0;border-top:1px solid var(--line)}.section-head{display:grid;grid-template-columns:.65fr 1.35fr;gap:50px;margin-bottom:44px}.section h2{font-family:var(--serif);font-size:40px;line-height:1.2;font-weight:400;margin:0}.section-intro{color:var(--muted);font-size:15px;max-width:620px;margin:4px 0 0}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{padding:27px 24px;background:var(--white);min-height:206px;border:1px solid #e9e6dc}.card .num{color:var(--gold);font-family:var(--serif);font-size:14px}.card h3{font-family:var(--serif);font-weight:400;font-size:22px;margin:18px 0 9px}.card p{color:var(--muted);font-size:13px;margin:0}.research{background:var(--green);color:#f7f5ef;padding:44px;display:grid;grid-template-columns:.5fr 1.5fr;gap:40px}.research .eyebrow{color:#d5b58d}.research h2{font-size:35px}.research p{max-width:660px;color:#e0e6df;font-size:15px}.keywords{display:flex;gap:8px;flex-wrap:wrap;margin-top:24px}.keywords span{border:1px solid #ffffff55;border-radius:99px;padding:6px 12px;font-size:11px;color:#f3f0e6}.teaching{display:grid;grid-template-columns:.65fr 1.35fr;gap:50px}.teaching-copy{max-width:650px;color:var(--muted)}.quote{font-family:var(--serif);font-size:23px;line-height:1.55;color:var(--green);border-left:2px solid var(--gold);padding-left:24px;margin:3px 0 28px}.footer{padding:34px 0 42px;border-top:1px solid var(--line);display:flex;justify-content:space-between;color:var(--muted);font-size:11px}.footer .brand{font-size:14px;color:var(--ink)}
+    @media(max-width:760px){.wrap{width:min(100% - 34px,560px)}.topbar{height:68px}.nav{gap:14px}.nav a{display:none}.hero{grid-template-columns:1fr;gap:44px;padding:65px 0}.hero p{font-size:15px}.art{height:340px;max-width:440px;width:100%;margin:auto}.section{padding:68px 0}.section-head,.teaching{grid-template-columns:1fr;gap:18px}.section h2{font-size:34px}.cards{grid-template-columns:1fr}.card{min-height:unset}.research{grid-template-columns:1fr;gap:18px;padding:30px 24px}.research h2{font-size:29px}.quote{font-size:20px}.footer{gap:12px;flex-direction:column}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <header class="wrap topbar">
+    <a class="brand" href="#home">Kyongwan Lee</a>
+    <nav class="nav" aria-label="주요 메뉴">
+      <a href="#about" data-ko="소개" data-en="About">소개</a>
+      <a href="#work" data-ko="관심 분야" data-en="Interests">관심 분야</a>
+      <a href="#teaching" data-ko="강의" data-en="Teaching">강의</a>
+      <button class="lang" id="language" type="button" aria-label="Switch language">EN</button>
+    </nav>
+  </header>
+  <main id="home">
+    <section class="wrap hero">
+      <div>
+        <div class="eyebrow" data-ko="러시아어 · 19세기 문학 · 비교문학" data-en="Russian · 19th-century literature · Comparative literature">러시아어 · 19세기 문학 · 비교문학</div>
+        <h1 data-ko="문학 사이를<br><em>읽고 가르칩니다.</em>" data-en="Reading across<br><em>literary worlds.</em>">문학 사이를<br><em>읽고 가르칩니다.</em></h1>
+        <p data-ko="러시아어와 19세기 문학을 가르치며, 서양 문학과 러시아 문학이 만나고 서로를 비추는 지점을 살펴봅니다." data-en="I teach Russian language and nineteenth-century literature, and explore the points where Western and Russian literary traditions meet and illuminate one another.">러시아어와 19세기 문학을 가르치며, 서양 문학과 러시아 문학이 만나고 서로를 비추는 지점을 살펴봅니다.</p>
+        <div class="actions"><a class="button" href="#work" data-ko="연구 관심사 보기" data-en="Explore my interests">연구 관심사 보기</a><a class="textlink" href="#teaching" data-ko="강의 소개" data-en="Teaching">강의 소개</a></div>
+      </div>
+      <div class="art" role="img" aria-label="고전 문학 책을 형상화한 추상 일러스트"><div class="book"><small>READING BETWEEN WORLDS</small><strong data-ko="문학의<br>대화" data-en="A dialogue<br>of literature">문학의<br>대화</strong><span>Russia · Europe · 19th century</span></div><div class="seal">Л</div></div>
+    </section>
+    <section class="section" id="about">
+      <div class="wrap">
+        <div class="section-head"><div class="eyebrow" data-ko="01 / 소개" data-en="01 / About">01 / 소개</div><h2 data-ko="작품을 읽고,<br>맥락을 함께 봅니다." data-en="Reading works<br>in their wider contexts.">작품을 읽고,<br>맥락을 함께 봅니다.</h2></div>
+        <p class="section-intro" data-ko="저는 러시아어와 19세기 러시아 문학을 강의합니다. 작품의 문장과 형식에서 출발해, 그것이 놓인 역사적·문화적 맥락과 다른 문학 전통과의 관계를 함께 읽는 데 관심이 있습니다." data-en="I teach Russian language and nineteenth-century Russian literature. My approach begins with the words and forms of a work, then places them in conversation with their historical, cultural, and literary contexts.">저는 러시아어와 19세기 러시아 문학을 강의합니다. 작품의 문장과 형식에서 출발해, 그것이 놓인 역사적·문화적 맥락과 다른 문학 전통과의 관계를 함께 읽는 데 관심이 있습니다.</p>
+      </div>
+    </section>
+    <section class="section" id="work">
+      <div class="wrap">
+        <div class="section-head"><div class="eyebrow" data-ko="02 / 관심 분야" data-en="02 / Areas of interest">02 / 관심 분야</div><h2 data-ko="서로 다른 문학이<br>만나는 자리." data-en="Where literary traditions meet.">서로 다른 문학이<br>만나는 자리.</h2></div>
+        <div class="cards">
+          <article class="card"><span class="num">01</span><h3 data-ko="러시아 19세기 문학" data-en="Nineteenth-century Russian literature">러시아 19세기 문학</h3><p data-ko="작품의 형식과 사상, 작가와 독자의 관계를 역사적 맥락 속에서 살핍니다." data-en="Form, ideas, and the relationship between writers and readers in historical context.">작품의 형식과 사상, 작가와 독자의 관계를 역사적 맥락 속에서 살핍니다.</p></article>
+          <article class="card"><span class="num">02</span><h3 data-ko="서양·러시아 비교문학" data-en="Western–Russian comparative literature">서양·러시아 비교문학</h3><p data-ko="문학적 영향과 변용, 서로 다른 전통이 공유하거나 달리 구성하는 주제를 탐구합니다." data-en="Literary influence and transformation, and themes shared or reshaped across traditions.">문학적 영향과 변용, 서로 다른 전통이 공유하거나 달리 구성하는 주제를 탐구합니다.</p></article>
+          <article class="card"><span class="num">03</span><h3 data-ko="러시아어 교육" data-en="Teaching Russian">러시아어 교육</h3><p data-ko="언어의 구조와 실제 표현을 문학·문화의 맥락과 연결해 가르칩니다." data-en="Connecting language structures and everyday expression with literary and cultural contexts.">언어의 구조와 실제 표현을 문학·문화의 맥락과 연결해 가르칩니다.</p></article>
+        </div>
+        <div class="research" style="margin-top:18px"><div class="eyebrow" data-ko="개인 연구 프로젝트" data-en="Ongoing personal project">개인 연구 프로젝트</div><div><h2 data-ko="서양 문학과 러시아 문학을 함께 읽기" data-en="Reading Western and Russian literature together">서양 문학과 러시아 문학을 함께 읽기</h2><p data-ko="현재 서양 문학과 러시아 문학의 비교 연구를 개인 프로젝트로 진행하고 있습니다. 작품 사이의 대화와 문학적 맥락을 따라가며 비교문학의 관점에서 읽을 질문을 만들어 갑니다." data-en="I am pursuing a personal project in Western–Russian comparative literature, following conversations between works and developing questions through a comparative lens.">현재 서양 문학과 러시아 문학의 비교 연구를 개인 프로젝트로 진행하고 있습니다. 작품 사이의 대화와 문학적 맥락을 따라가며 비교문학의 관점에서 읽을 질문을 만들어 갑니다.</p><div class="keywords"><span>Russia</span><span>Europe</span><span>19th century</span><span data-ko="비교문학" data-en="Comparative literature">비교문학</span></div></div></div>
+      </div>
+    </section>
+    <section class="section" id="teaching">
+      <div class="wrap teaching"><div><div class="eyebrow" data-ko="03 / 강의" data-en="03 / Teaching">03 / 강의</div><h2 style="margin-top:18px" data-ko="언어에서 문학으로." data-en="From language to literature.">언어에서 문학으로.</h2></div><div><p class="quote" data-ko="언어를 익히는 일은 새로운 표현을 배우는 동시에, 그 표현이 살아가는 세계를 만나는 일입니다." data-en="Learning a language means learning new expressions—and encountering the worlds in which they live.">언어를 익히는 일은 새로운 표현을 배우는 동시에, 그 표현이 살아가는 세계를 만나는 일입니다.</p><p class="teaching-copy" data-ko="러시아어 수업에서는 기초 표현과 문법을 실제 문장 속에서 익히고, 러시아 문학 수업에서는 작품을 세밀하게 읽으며 시대와 사회의 질문을 함께 살펴봅니다." data-en="In Russian classes, students encounter grammar and core expressions through real sentences. In literature classes, close reading opens onto questions about the period and society.">러시아어 수업에서는 기초 표현과 문법을 실제 문장 속에서 익히고, 러시아 문학 수업에서는 작품을 세밀하게 읽으며 시대와 사회의 질문을 함께 살펴봅니다.</p></div></div>
+    </section>
+  </main>
+  <footer class="wrap footer"><span class="brand">Kyongwan Lee</span><span data-ko="러시아어와 문학을 읽고 가르칩니다." data-en="Teaching and reading Russian language and literature.">러시아어와 문학을 읽고 가르칩니다.</span><span>© <span id="year"></span> Kyongwan Lee</span></footer>
+  <script>
+    const switcher=document.getElementById('language');let current='ko';
+    switcher.addEventListener('click',()=>{current=current==='ko'?'en':'ko';document.documentElement.lang=current;document.querySelectorAll('[data-ko][data-en]').forEach(el=>{el.innerHTML=el.dataset[current]});switcher.textContent=current==='ko'?'EN':'한국어';switcher.setAttribute('aria-label',current==='ko'?'Switch language to English':'한국어로 전환')});
+    document.getElementById('year').textContent=new Date().getFullYear();
+  </script>
+</body>
+</html>
